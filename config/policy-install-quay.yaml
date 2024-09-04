@@ -97,7 +97,7 @@ type: Opaque
 apiVersion: quay.redhat.com/v1
 kind: QuayRegistry
 metadata:
-  name: registry
+  name: quay-registry
   namespace: local-quay
 spec:
   configBundleSecret: init-config-bundle-secret
