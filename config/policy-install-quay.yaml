@@ -79,6 +79,7 @@ metadata:
   name: quay-operator
   namespace: local-quay
 spec:
+  channel: stable-3.12
   installPlanApproval: Automatic
   name: quay-operator
   source: redhat-operators
